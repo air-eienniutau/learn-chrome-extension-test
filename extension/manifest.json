@@ -1,0 +1,20 @@
+{
+  "name": "My Extension",
+  "version": "1.0.1.0",
+  "manifest_version": 2,
+  "description": "Simple text reader",
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "file://*/*"
+  ]
+}
